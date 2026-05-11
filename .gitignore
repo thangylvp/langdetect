@@ -1,0 +1,26 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Virtual environments (we use conda, but just in case)
+.venv/
+venv/
+env/
+
+# Claude Code session state — context is captured in DEVELOPMENT_NOTES.md
+.claude/
