@@ -1,0 +1,12 @@
+# v1 — library wrappers
+fastapi
+pydantic>=2.0
+lingua-language-detector>=2.0.2
+fasttext-langdetect>=1.0.5
+numpy
+
+# v2 — rule-based pipeline
+underthesea
+
+# testing
+pytest
