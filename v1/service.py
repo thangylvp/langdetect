@@ -11,7 +11,7 @@ def _lingua_detector() -> LanguageDetector:
 
 @lru_cache(maxsize=1)
 def _fasttext_detector() -> LanguageDetector:
-    from .. import env
+    from ... import env
 
     if not env.FASTTEXT_MODEL_PATH:
         raise RuntimeError(
